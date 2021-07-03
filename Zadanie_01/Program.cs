@@ -54,7 +54,8 @@ namespace Zadanie_01
             s = Get();
             float b = Convert.ToSingle(s);
 
-            Console.WriteLine("\tOperacja: " + a + " " + oper + " " + b);
+            Console.WriteLine("\t--------- \t---------");
+            Console.WriteLine("\tOperacja: \t" + a + " " + oper + " " + b);
 
             Operator(oper, a, b);
         }
