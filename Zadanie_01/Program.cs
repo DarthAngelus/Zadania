@@ -47,6 +47,7 @@ namespace Zadanie_01
             float a = Convert.ToSingle(s);
             
             Console.Write("Operator (+,-,*,/):\t");
+            //char oper = Convert.ToChar(Console.ReadKey());
             char oper = Console.ReadKey().KeyChar;
             
             Console.Write("\nI druga liczba:\t\t");
@@ -74,8 +75,6 @@ namespace Zadanie_01
         /// <param name="b"></param>
         static void Operator(char znak, float a, float b)
         {
-            //char znak = Convert.ToChar(Console.ReadKey());
-            //char znak = Console.ReadKey().KeyChar;
             switch (znak)
             {
                 case (char)'+':
@@ -104,7 +103,6 @@ namespace Zadanie_01
         /// <param name="v"></param>
         private static void Pisz(string v)
         {
-            //string s;
             Console.WriteLine("Wynik działania:\t" + v);
         }
         /// <summary>
